@@ -2,24 +2,10 @@
 
 This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
-## File structure
+Using [Now](http://zeit.co/now) for deployment so I'm using `apollo-server-micro` instead of `apollo-server`.
 
-The app is split out into two folders:
-- `start`: Starting point for the tutorial
-- `final`: Final version
+Pull the latest and `cd server/`
 
-From within the `start` and `final` directories, there are two folders (one for `server` and one for `client`).
+Then run `npm install`.
 
-## Installation
-
-To run the app, run these commands in two separate terminal windows from the root:
-
-```bash
-cd final/server && npm i && npm start
-```
-
-and
-
-```bash
-cd final/client && npm i && npm start
-```
+After installing all the packages, run `now dev` to get a now dev server running.
